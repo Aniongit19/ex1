@@ -5,9 +5,9 @@
     tasks:
     - name: add user Ani
       user:
-        name: Ani
+        name: Anirbang
         shell: /bin/false
     - name: Adding file to /tmp
       file:
-        name: /tmp/abc.txt
+        name: /tmp/xyz.txt
         state: touch 
